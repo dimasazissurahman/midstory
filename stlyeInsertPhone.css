@@ -1,0 +1,75 @@
+@import url("headerfooter.css");
+
+.body_content{
+	width: 99.4vw;
+   	height: 80vh;
+}
+
+.container{
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loginbox{
+	border-radius: 5%;
+	width: 50%;
+	height: 70%;
+	margin-top: -15%;
+	background: white;
+	color: black;
+	position: absolute;
+	transform: translate(50%,50%);
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: gray;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10%;
+}
+
+.loginbox input[type="textarea"]{
+	width: 95%;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.loginbox input[type="text"]{
+	width: 46%;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.test input[type="text"]{
+	width: 29.5%;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.loginbox input[type="file"]{
+	margin-left: 2%;
+	margin-bottom: 20px;
+	height: 30px;
+	margin-right: 21%;
+}
+
+.loginbox input[type="submit"]{
+	width: 85%;
+	margin-left: 8%;
+	background: red;
+	color: white;
+	height: 40px;
+	border-radius: 6px;
+}

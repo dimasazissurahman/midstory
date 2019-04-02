@@ -1,0 +1,37 @@
+@import url("headerfooterMember.css");
+
+#hp{
+	width: 100px;
+	height: 100px;
+}
+
+.container > table{
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+.container>th,td {
+  border-bottom: 1px solid black;
+}
+.container>tr,th {
+  border-bottom: 1px solid black;
+}
+
+.container > h1{
+	text-align: center; 
+}
+
+.container >h1>img{
+	width: 40px;
+	height: 30px;
+}
+
+#btnDetail{
+	background: blue;
+	color: white;
+	height: 40px;
+	width: 70px;
+	border-radius: 10px;
+}

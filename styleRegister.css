@@ -1,0 +1,78 @@
+@import url("headerfooter.css");
+
+.body_content{
+	width: 99.4vw;
+   	height: 80vh;
+}
+
+.container{
+	background-image: url("picture/background.jpg");
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loginbox{
+	border-radius: 5%;
+	width: 50%;
+	height: 70%;
+	margin-top: -15%;
+	background: white;
+	color: black;
+	position: absolute;
+	transform: translate(50%,50%);
+	box-sizing: border-box;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10%;
+}
+
+.loginbox input[type="text"], input[type = "password"], input[type = "Email"]{
+	width: 38%;
+	margin-bottom: 20px;
+	margin-left: 8%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.loginbox input[type="file"]{
+	margin-left: 8%;
+	margin-bottom: 20px;
+	height: 30px;
+	margin-right: 21%;
+}
+
+.loginbox input[type="date"]{
+	width: 84.5%;
+	margin-left: 8%;
+	margin-bottom: 20px;
+	height: 30px;
+}
+
+.loginbox input[type="date" name="address"]{
+	width: 84.5%;
+	margin-left: 8%;
+	margin-bottom: 20px;
+	height: 30px;
+}
+
+.loginbox textarea{
+	margin-left: 8%;
+	width: 84.5%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="submit"]{
+	width: 85%;
+	margin-left: 8%;
+	background: red;
+	color: white;
+	height: 40px;
+
+}

@@ -1,0 +1,79 @@
+@import url("headerfooterMember.css");
+
+.body_content{
+	width: 99.5vw;
+   	height: 80vh;
+
+}
+
+.loginbox{
+	border-radius: 5%;
+	width: 50%;
+	height: 70%;
+	margin-top: -15%;
+	background: #f6f6f6;
+	color: black;
+	position: absolute;
+	transform: translate(50%,50%);
+	box-sizing: border-box;
+	box-shadow: 5px 5px grey;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: left;
+	font-size: 40px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+.loginbox img{
+	margin-left: 20%;
+	margin-top: 4%;
+	margin-bottom: -4%;
+	width: 130px;
+	height: 150px;
+}
+
+.loginbox input[type="textarea"]{
+	width: 95%;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.loginbox input[type="text"]{
+	width: 46%;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.test input[type="text"]{
+	width: 29.5%;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	height: 30px;
+	font-size: 16px;
+}
+
+.loginbox input[type="file"]{
+	margin-left: 2%;
+	margin-bottom: 20px;
+	height: 30px;
+	margin-right: 21%;
+}
+
+.loginbox input[type="submit"]{
+	width: 85%;
+	margin-left: 8%;
+	background: red;
+	color: white;
+	height: 40px;
+	border-radius: 6px;
+}

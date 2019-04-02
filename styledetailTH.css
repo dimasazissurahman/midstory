@@ -1,0 +1,61 @@
+@import url("headerfooterMember.css");
+
+#hp{
+	width: 100px;
+	height: 100px;
+}
+
+.container > table{
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+.container>th,td {
+  border-bottom: 1px solid black;
+}
+.container>tr,th {
+  border-bottom: 1px solid black;
+}
+
+.container > h1{
+	text-align: center; 
+}
+
+.container >h1>img{
+	width: 40px;
+	height: 30px;
+}
+
+.container>.body-bottom > h3{
+	text-align: center;
+	display: inline-block;
+}
+
+.body-bottom{
+	margin-top: 15%;
+	align-content: bottom;
+}
+
+.body-bottom>h2{
+	display: inline-block;
+}
+
+#btnBack{
+	margin-left: 40%;
+	background: blue;
+	color: white;
+	height: 40px;
+	width: 20%;
+	font-size: 11px;
+	padding: 10px 20px 20px 20px;
+}
+
+#totalQty{
+	margin-left: 25%;
+}
+
+#grandTotal{
+	color: red;
+}

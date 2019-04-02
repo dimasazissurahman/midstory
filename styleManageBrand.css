@@ -1,0 +1,57 @@
+@import url("headerfooterAdmin.css");
+
+.body_content{
+	width: 99.5vw;
+   	height: 80vh;
+}
+
+#background{
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#background > .container > table{
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+#background>.container>th,td {
+  border-bottom: 1px solid black;
+}
+#background>.container>tr,th {
+  border-bottom: 1px solid black;
+}
+
+#background>.container > h1{
+	text-align: center; 
+}
+
+#background>.container >h1>img{
+	width: 40px;
+	height: 30px;
+}
+
+#background>.container>.body-bottom > h2{
+	text-align: center;
+	display: inline-block;
+}
+
+#btnDel{
+	background: red;
+	color: white;
+	height: 40px;
+	width: 70px;
+	border-radius: 10px;
+}
+
+#btnUpdate{
+	background: blue;
+	color: white;
+	height: 40px;
+	width: 70px;
+	border-radius: 10px;
+}

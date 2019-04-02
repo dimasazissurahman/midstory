@@ -1,0 +1,14 @@
+@import url("headerfooterMember.css");
+
+.body_content{
+	width: 99.5vw;
+   	height: 80vh;
+}
+
+#background{
+	background-image: url("picture/background.jpg");
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}

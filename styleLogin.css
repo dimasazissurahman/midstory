@@ -1,0 +1,56 @@
+@import url("headerfooter.css");
+
+.body_content{
+	width: 99.4vw;
+   	height: 80vh;
+}
+
+.container{
+	background-image: url("picture/background.jpg");
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.loginbox{
+	border-radius: 5%;
+	width: 320px;
+	height: 320px;
+	background: white;
+	color: black;
+	left: 30%;
+	position: absolute;
+	transform: translate(50%,50%);
+	box-sizing: border-box;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10%;
+}
+
+.loginbox input{
+	width: 80%;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+
+.loginbox input[type="checkbox"]{
+	margin-left: -90px;
+	margin-right: -110px;
+}
+
+
+.loginbox input[type="text"], input[type="password"]{
+	height: 20px;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+	height: 30px;
+	background: red;
+	color: white;
+}
